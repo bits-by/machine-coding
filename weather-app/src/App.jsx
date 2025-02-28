@@ -24,7 +24,7 @@ function App() {
     if(navigator.geolocation){
       navigator.geolocation.getCurrentPosition(showPosition);
     }
-  }, [])
+  },[])
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-200 to-indigo-700 text-white">
